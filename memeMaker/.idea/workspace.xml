@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/memeMaker/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -30,8 +30,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/memeMaker/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
               </folding>
@@ -100,6 +100,7 @@
         <option value="$PROJECT_DIR$/front_end/memeMaker/angular.json" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/memeMaker/settings.py" />
+        <option value="$PROJECT_DIR$/memeMaker/templates/home.html" />
         <option value="$PROJECT_DIR$/memeMaker/urls.py" />
       </list>
     </option>
@@ -282,7 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573963263847</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added home page">
+      <created>1573963999330</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573963999330</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added home page text">
+      <created>1573964060923</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1573964060923</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -324,7 +339,9 @@
     <MESSAGE value="Changed distribution location" />
     <MESSAGE value="Updated rxjs. Built front-end so files are there" />
     <MESSAGE value="Added requirements file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added requirements file" />
+    <MESSAGE value="added home page" />
+    <MESSAGE value="added home page text" />
+    <option name="LAST_COMMIT_MESSAGE" value="added home page text" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -395,14 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/memeMaker/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -427,10 +436,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/memeMaker/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/memeMaker/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
           </folding>
