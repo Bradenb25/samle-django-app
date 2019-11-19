@@ -21,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/memeMaker/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -274,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573969821547</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Uncommented files">
+      <created>1574127527957</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574127527957</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -322,7 +329,8 @@
     <MESSAGE value="Fixed url" />
     <MESSAGE value="Changed html" />
     <MESSAGE value="Added database information" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added database information" />
+    <MESSAGE value="Uncommented files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uncommented files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -426,7 +434,7 @@
     <entry file="file://$PROJECT_DIR$/memeMaker/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding />
         </state>
       </provider>
