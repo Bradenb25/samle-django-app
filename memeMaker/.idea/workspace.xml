@@ -4,7 +4,6 @@
     <list default="true" id="98835c1f-556d-4f25-ab7a-59fc9e25119d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/memeMaker/settings.py" afterPath="$PROJECT_DIR$/memeMaker/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/memeMaker/urls.py" afterPath="$PROJECT_DIR$/memeMaker/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,8 +62,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/memeMaker/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="128" column="50" lean-forward="false" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+            <state relative-caret-position="367">
+              <caret line="128" column="52" lean-forward="false" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -408,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574222186271</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="trying to add static url path">
+      <created>1574222511997</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1574222511997</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -464,7 +470,8 @@
     <MESSAGE value="Changed database information fd" />
     <MESSAGE value="Removed home temporily" />
     <MESSAGE value="Update static files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update static files" />
+    <MESSAGE value="trying to add static url path" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to add static url path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -586,8 +593,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/memeMaker/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="128" column="50" lean-forward="false" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+        <state relative-caret-position="367">
+          <caret line="128" column="52" lean-forward="false" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
           <folding />
         </state>
       </provider>
