@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98835c1f-556d-4f25-ab7a-59fc9e25119d" name="Default" comment="">
+    <list default="true" id="98835c1f-556d-4f25-ab7a-59fc9e25119d" name="Default" comment="Changed database information">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../requirements.txt" afterPath="$PROJECT_DIR$/../requirements.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -326,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574217166178</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Changed database information">
+      <created>1574217669403</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1574217669403</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -378,7 +386,8 @@
     <MESSAGE value="asdf" />
     <MESSAGE value="Changed db info" />
     <MESSAGE value="Added database info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added database info" />
+    <MESSAGE value="Changed database information" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed database information" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
