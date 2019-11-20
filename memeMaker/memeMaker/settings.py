@@ -127,5 +127,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "wwwroot/memeMaker/memeMaker/static")
+    'D:/home/site/wwwroot/memeMaker/memeMaker/static',
+    os.path.join(BASE_DIR, "memeMaker/static")
 ]
