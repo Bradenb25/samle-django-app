@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="98835c1f-556d-4f25-ab7a-59fc9e25119d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/memeMaker/settings.py" afterPath="$PROJECT_DIR$/memeMaker/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/memeMaker/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+            <state relative-caret-position="248">
+              <caret line="79" column="49" lean-forward="true" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -109,6 +108,21 @@
               <item name="memeMaker" type="462c0819:PsiDirectoryNode" />
               <item name="front_end" type="462c0819:PsiDirectoryNode" />
               <item name="memeMaker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memeMaker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memeMaker" type="462c0819:PsiDirectoryNode" />
+              <item name="front_end" type="462c0819:PsiDirectoryNode" />
+              <item name="memeMaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memeMaker" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memeMaker" type="462c0819:PsiDirectoryNode" />
+              <item name="front_end" type="462c0819:PsiDirectoryNode" />
+              <item name="memeMaker" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="memeMaker" type="b2602c69:ProjectViewProjectNode" />
@@ -305,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574215390388</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Added database info">
+      <created>1574217166178</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574217166178</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -356,7 +377,8 @@
     <MESSAGE value="Uncommented files" />
     <MESSAGE value="asdf" />
     <MESSAGE value="Changed db info" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed db info" />
+    <MESSAGE value="Added database info" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added database info" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -459,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/memeMaker/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="86" column="6" lean-forward="false" selection-start-line="86" selection-start-column="6" selection-end-line="86" selection-end-column="6" />
+        <state relative-caret-position="248">
+          <caret line="79" column="49" lean-forward="true" selection-start-line="79" selection-start-column="49" selection-end-line="79" selection-end-column="57" />
           <folding />
         </state>
       </provider>
