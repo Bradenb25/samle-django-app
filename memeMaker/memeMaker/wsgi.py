@@ -15,4 +15,4 @@ from whitenoise import WhiteNoise
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'memeMaker.settings')
 
 application = get_wsgi_application()
-application = WhiteNoise(application, root='D:/home/site/wwwroot/memeMaker/memeMaker/static')
+# application = WhiteNoise(application, root='D:/home/site/wwwroot/memeMaker/memeMaker/static')
