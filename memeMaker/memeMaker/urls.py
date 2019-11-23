@@ -15,14 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 from django.views.generic import TemplateView
-from django.views.static import serve
-
-from memeMaker import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}),
-    url(r'^((?!(static|admin)).)*$', TemplateView.as_view(template_name="home.html"))
+    url(r'^api/videos/', include('videos.urls')),
+    url(r'^((?!(static|admin)).)*$', TemplateView.as_view(template_name="home.html")),
 ]

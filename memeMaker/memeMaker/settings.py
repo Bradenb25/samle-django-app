@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '#c6=y#hrj3&4-@g@0fya^s(lv=j_&56y%*0t#r20c3ghc%evho'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'videos',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -127,10 +129,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+#
+# STATIC_ROOT= os.path.join(BASE_DIR,'./static')
 
-STATIC_ROOT= os.path.join(BASE_DIR,'./static')
-
-# STATICFILES_DIRS = [
-#     # 'D:/home/site/wwwroot/memeMaker/memeMaker/static',
-#     os.path.join(BASE_DIR, "./static")
-# ]
+STATICFILES_DIRS = [
+    # 'D:/home/site/wwwroot/memeMaker/memeMaker/static',
+    os.path.join(BASE_DIR, "./static")
+]
