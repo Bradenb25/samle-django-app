@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* You can add global styles to this file, and also import other style files */\n"
+module.exports = "/* You can add global styles to this file, and also import other style files */\r\n"
 
 /***/ }),
 
@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Braden\Documents\School\Fall_2019\Senior Project part A\senior-project\meme-maker\memeMaker\front_end\memeMaker\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\brade\PycharmProjects\samle-django-app\samle-django-app\memeMaker\front_end\memeMaker\src\styles.css */"./src/styles.css");
 
 
 /***/ })

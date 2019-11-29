@@ -134,5 +134,6 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     # 'D:/home/site/wwwroot/memeMaker/memeMaker/static',
-    os.path.join(BASE_DIR, "./static")
+    os.path.join(BASE_DIR, "./static"),
+    # os.path.join(BASE_DIR, "memeMaker/static")
 ]
