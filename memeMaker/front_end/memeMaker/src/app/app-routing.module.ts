@@ -4,7 +4,7 @@ import { SearchComponent } from './search/search.component';
 
 const routes: Routes = [
     {
-        path: 'search',
+        path: '',
         component: SearchComponent
     }
 ];
