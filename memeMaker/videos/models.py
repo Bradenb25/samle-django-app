@@ -1,15 +1,13 @@
 from django.db import models
 
 
-
-
-
 class VideoType(models.Model):
     name = models.CharField(max_length=50)
 
 
     def __str__(self):
         return "{0}".format(self.name)
+
 
 # Create your models here.
 class Video(models.Model):
@@ -19,10 +17,13 @@ class Video(models.Model):
     def __str__(self):
         return "{0}".format(self.name)
 
+
 class VideoClip(models.Model):
     video = models.ForeignKey(Video, related_name = 'video_for_clip', on_delete=models.CASCADE)
-    start_time = models.CharField(max_length=15)
-    end_time = models.CharField(max_length=15)
+    start_seconds = models.DecimalField(decimal_places=3, max_digits=6)
+    start_minutes = models.IntegerField()
+    end_seconds = models.DecimalField(decimal_places=3, max_digits=6)
+    end_minutes = models.IntegerField()
     subtitle_text = models.CharField(max_length=300)
 
     def __str__(self):

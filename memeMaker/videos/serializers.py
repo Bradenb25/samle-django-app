@@ -14,5 +14,6 @@ class VideoSerializer(serializers.ModelSerializer):
 
 class VideoClipSerializer(serializers.ModelSerializer):
     class Meta:
-        exclude = ('id', 'video')
+        exclude = []
+        # exclude = ('id', 'video')
         model = VideoClip

@@ -8,8 +8,6 @@ import { SearchComponent } from './search/search.component';
 import { SearchResultsComponent } from './results/search-results/search-results.component';
 import { VideoDetailComponent } from './video-detail/video-detail.component';
 import { SingleResultComponent } from './results/single-result/single-result.component';
-import { AppRoutingModule } from './app-routing.module';
-import { RouterModule } from '@angular/router';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AuthInterceptor } from './shared/services/auth-interceptor.service';

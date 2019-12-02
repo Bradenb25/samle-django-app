@@ -1,12 +1,16 @@
 <div class="search-container">
   <div class="row">
     <div class="search-box">
-      <input id="search-box" type="text">
+      <input #searchBox id="search-box" type="text" [(ngModel)]="searchTerm">
     </div>
   </div>
 </div>
 
-<div class="search-body">
+<app-search-results [videoClips]="videoClips">
+
+</app-search-results>
+
+<div class="search-body" *ngIf="!videoClips">
   <div class="row">
     <div class="col-12" id="search-text" style="color: white; ">
       Search From Millions of online videos
@@ -14,5 +18,23 @@
   </div>
 </div>
 
+<!-- <div>
+  <div>
+    <ol *ngFor='let videoClip of videoClips'>
+      <li>{{ videoClip.start_minutes }}</li>
+      <li>{{ videoClip.start_seconds }}</li>
+      <li>{{ videoClip.end_minutes }}</li>
+      <li>{{ videoClip.end_seconds }}</li>
+      <li>{{ videoClip.subtitle_text }}</li>
+      <li>
+          <img *ngIf="videoClip.pictureUrl" class="post-person-img" style="height: 70px; width: 70px;" [src]="videoClip.pictureUrl">
+        {{ videoClip.pictureUrl }}</li>
+    </ol>
+  </div>
+</div> -->
+
+<!--
 <input type="text" [(ngModel)]="searchTerm">
 <button (click)="search()">Search</button>
+
+<button (click)="processVideo()">Process Video</button> -->

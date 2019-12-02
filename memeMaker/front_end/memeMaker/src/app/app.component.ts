@@ -12,11 +12,11 @@ export class AppComponent {
   constructor(private pictureService: PictureService) {}
 
   ngOnInit() {
-    this.pictureService.getImage().subscribe(x => {
-      // this.pictureUrl = this.pictureService.getPictureFromBuffer(x);
-      this.pictureUrl = this.createImageFromBlob(x);
+    // this.pictureService.getImage().subscribe(x => {
+    //   // this.pictureUrl = this.pictureService.getPictureFromBuffer(x);
+    //   this.pictureUrl = this.createImageFromBlob(x);
 
-    })
+    // })
   }
 
     createImageFromBlob(image: Blob) {

@@ -13,4 +13,15 @@ export class SearchService {
     let url = `api/videos/videoClip/?search=${searchTerm}`;
     return this._http.get<VideoClip[]>(url);
   }
+
+  addArchiveVideo(videoTag: string) {
+    let url = `api/videos/addArchive?videoTag=${videoTag}`;
+    return this._http.get(url)
+  }
+
+  processVideo(videoTag: string = 'Trump_Supporters') {
+    let url = `api/videos/processVideo?videoTag=${videoTag}`;
+    return this._http.get(url);
+  }
 }
+ 
