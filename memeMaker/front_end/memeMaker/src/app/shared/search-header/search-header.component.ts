@@ -1,16 +1,16 @@
-import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
-import { SearchService } from './services/search.service';
-import { VideoClip } from './models/video-clip';
-import { fromEvent } from 'rxjs';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { VideoClip } from 'src/app/search/models/video-clip';
 import { debounceTime } from 'rxjs/operators';
-import { PictureService } from '../shared/services/picture.service';
+import { fromEvent } from 'rxjs';
+import { SearchService } from 'src/app/search/services/search.service';
+import { PictureService } from '../services/picture.service';
 
 @Component({
-  selector: 'app-search',
-  templateUrl: './search.component.html',
-  styleUrls: ['./search.component.scss']
+  selector: 'app-search-header',
+  templateUrl: './search-header.component.html',
+  styleUrls: ['./search-header.component.scss']
 })
-export class SearchComponent implements OnInit, AfterViewInit {
+export class SearchHeaderComponent implements OnInit {
 
   @ViewChild('searchBox') searchInput
 
@@ -73,7 +73,6 @@ export class SearchComponent implements OnInit, AfterViewInit {
   }
 
   processVideo() {
-    // this.searchService.addArchiveVideo().subscribe(processing => {
     this.searchService.processVideo().subscribe(processing => {
       console.log(processing);
     })

@@ -1,0 +1,12 @@
+<!--
+<input type="text" [(ngModel)]="searchTerm">
+<button (click)="search()">Search</button>
+-->
+
+<input type="text" [(ngModel)]="videoTag">
+<button (click)="addVideo()">Add Video</button> 
+
+
+<div *ngIf="videoProcessed">
+  Video was processed and added to database
+</div>

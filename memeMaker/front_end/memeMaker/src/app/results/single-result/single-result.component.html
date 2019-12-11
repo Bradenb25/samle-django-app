@@ -1,4 +1,5 @@
-<img *ngIf="videoClip && videoClip.pictureUrl" [src]="videoClip.pictureUrl" alt="" [routerLink]="['../video-detail']">
+
+<img *ngIf="videoClip && videoClip.pictureUrl" [src]="videoClip.pictureUrl" alt="" [routerLink]="['../video-detail', videoClip.id]" (click)="updateCurrentClip()">
 <!-- <div>
 
 </div> -->

@@ -1,0 +1,38 @@
+<div class="container detail-container">
+
+  <div class="row video-clip-info">
+    <div id="main-picture" class="col-6">
+      <!-- <img *ngIf="segments && segments.length > 0 && segments[0].pictureUrl" [src]="segments[0].pictureUrl" alt="" (click)="updateCurrentClip()"> -->
+
+      <!-- <ngx-image-editor [config]="config" (close)="close($event)" (file)="getEditedFile($event)">
+      </ngx-image-editor> -->
+      <canvas #canvas id="canvasId" [width]="width" [height]="height"></canvas>
+
+    </div>
+
+    <div class="clip-text col-6">
+      <!-- {{ videoClip.subtitle_text }} -->
+      <input type="text" [(ngModel)]="memeText" (keyup)="addTextToMeme()"> <br>
+      <button (click)="download()">Download</button>
+    </div> 
+  </div>
+
+  <div class="row" style="overflow-x: scroll;">
+
+    <table>
+      <thead>
+
+      </thead>
+      <tbody style="overflow-x:auto;">
+        <td *ngFor="let segment of segments">
+          <div class="picture">
+            <img style="width: 200px; height: 200px" *ngIf="segment && segment.pictureUrl" [src]="segment.pictureUrl"
+              alt="" (click)="updateCurrentClip()">
+          </div>
+        </td>
+      </tbody>
+    </table>
+
+
+  </div>
+</div>

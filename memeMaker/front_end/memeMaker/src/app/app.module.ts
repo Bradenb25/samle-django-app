@@ -11,14 +11,21 @@ import { SingleResultComponent } from './results/single-result/single-result.com
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AuthInterceptor } from './shared/services/auth-interceptor.service';
+import { DetailsComponent } from './details/details.component';
+import { SearchHeaderComponent } from './shared/search-header/search-header.component';
+import { AddVideoComponent } from './add-video/add-video.component';
+import { NgxImageEditorModule } from "ngx-image-editor";
 
-@NgModule({
+@NgModule({ 
   declarations: [
     AppComponent,
     SearchComponent,
     SearchResultsComponent,
     VideoDetailComponent,
-    SingleResultComponent
+    SingleResultComponent,
+    DetailsComponent,
+    SearchHeaderComponent,
+    AddVideoComponent
   ],
   imports: [
     RouterModule,
@@ -26,6 +33,7 @@ import { AuthInterceptor } from './shared/services/auth-interceptor.service';
     BrowserModule,
     FormsModule,
     HttpClientModule,
+    NgxImageEditorModule
   ],
   providers: [
     {

@@ -2,7 +2,7 @@ from django.conf.urls import url
 from rest_framework.routers import DefaultRouter
 
 from videos.api import VideoTypeViewSet, VideoViewSet, VideoClipViewSet
-from videos.views import download, addArchiveVideo, processVideo
+from videos.views import download, addArchiveVideo, processVideo, downloadSpecificTime
 
 router = DefaultRouter()
 router.register(r'videoType', VideoTypeViewSet)
@@ -11,6 +11,8 @@ router.register(r'videoClip', VideoClipViewSet)
 
 # urlpatterns = [url(r'download', download)]
 urlpatterns = router.urls + [
+
+    url(r'download/frame', downloadSpecificTime),
     url(r'download', download),
     url(r'addArchive', addArchiveVideo),
     url(r'processVideo', processVideo)

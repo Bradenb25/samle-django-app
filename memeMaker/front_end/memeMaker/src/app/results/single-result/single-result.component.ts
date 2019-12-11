@@ -1,4 +1,6 @@
 import { Component, OnInit, Input, ChangeDetectionStrategy } from '@angular/core';
+import { VideoClip } from 'src/app/search/models/video-clip';
+import { DetailService as DetailService } from 'src/app/shared/services/detail-service.service';
 
 @Component({
   selector: 'app-single-result',
@@ -8,11 +10,16 @@ import { Component, OnInit, Input, ChangeDetectionStrategy } from '@angular/core
 })
 export class SingleResultComponent implements OnInit {
 
-  @Input() videoClip
+  @Input() videoClip: VideoClip
 
-  constructor() { }
+  constructor(public detailService: DetailService) { }
 
   ngOnInit() {
+
+  }
+
+  updateCurrentClip() {
+    this.detailService.setVideoClip(this.videoClip);
   }
 
 }

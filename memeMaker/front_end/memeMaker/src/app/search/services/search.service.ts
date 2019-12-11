@@ -14,12 +14,12 @@ export class SearchService {
     return this._http.get<VideoClip[]>(url);
   }
 
-  addArchiveVideo(videoTag: string) {
+  addArchiveVideo(videoTag: string = 'AKECARTOONWithEnglishSubtitles') {
     let url = `api/videos/addArchive?videoTag=${videoTag}`;
     return this._http.get(url)
   }
 
-  processVideo(videoTag: string = 'Trump_Supporters') {
+  processVideo(videoTag: string = 'AKECARTOONWithEnglishSubtitles') {
     let url = `api/videos/processVideo?videoTag=${videoTag}`;
     return this._http.get(url);
   }

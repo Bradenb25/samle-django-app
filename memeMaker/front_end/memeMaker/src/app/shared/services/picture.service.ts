@@ -18,8 +18,12 @@ export class PictureService {
     this.getPictureUrl = `/user/profile-pic?username=`;
   }
 
-  getImage(videoId: number, startMinutes: number, startSeconds: number) {
+  getImage(videoId: number, startMinutes: number, startSeconds: string) {
     return this._http.get<any>(`api/videos/download?videoId=${videoId}&startMinutes=${startMinutes}&startSeconds=${startSeconds}`, {headers: null, responseType: 'blob' as 'json'});
+  }
+
+  getSpecificTime(videoId: number, minutes: number, seconds: number) {
+    return this._http.get<any>(`api/videos/download/frame?videoId=${videoId}&startMinutes=${minutes}&startSeconds=${seconds}`, {headers: null, responseType: 'blob' as 'json'});
   }
 
   getPictureFromBuffer(buffer: any) {

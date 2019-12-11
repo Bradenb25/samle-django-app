@@ -1,0 +1,27 @@
+.detail-container {
+
+    max-width: 1600px;
+    width: 1600px;
+
+    .video-clip-info {
+        margin-top: 40px;
+
+        .clip-text {
+            margin: auto 0;
+        }
+    }
+
+    #main-picture {
+        // width: 400px;
+        margin-bottom: 40px;
+        image {
+            width: 475px;
+            height: 475px;
+        }
+    }
+
+    .picture {
+        width: 200px;
+        margin: 0 8px;
+    }
+}
