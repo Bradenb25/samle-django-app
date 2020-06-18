@@ -1,19 +1,38 @@
 <div class="search-container">
   <div class="row">
     <div class="search-box">
-      <input #searchBox id="search-box" type="text" [(ngModel)]="searchTerm">
+      <input [hidden]="searchType == 'Emotion'" #searchBox id="search-box" type="text" [(ngModel)]="searchTerm" style="display: inline-flex;">
+      <select [hidden]="searchType != 'Emotion'" name="" id="" [(ngModel)]="emotion" (change)="search()">
+        <option value="angry">Anger</option>
+        <option value="disgust">Disgust</option>
+        <option value="fear">Fear</option>
+        <option value="happy">Happy</option>
+        <option value="sad">Sad</option>
+        <option value="surprise">Surprise</option>
+        <option value="neutral">Neutral</option>
+      </select>
+      <select name="" id="" [(ngModel)]="searchType" (change)="search()">
+        <option value="Subtitle">Subtitle</option>
+        <option value="Person">Person</option>
+        <option value="Object">Object</option>
+        <option value="Emotion">Emotion</option>
+      </select>
+      <!-- <span style="color: white; cursor: pointer;" (click)="showAdvancedSearch()">
+        Advanced Search
+      </span>  -->
     </div>
   </div>
 </div>
 
-<app-search-results [videoClips]="videoClips">
-
-</app-search-results>
+<div class="search-results" *ngIf="videoClips">
+  <app-search-results [videoClips]="videoClips">
+  </app-search-results>
+</div>
 
 <div class="search-body" *ngIf="!videoClips">
   <div class="row">
     <div class="col-12" id="search-text" style="color: white; ">
-      Search From Millions of online videos 
+      Search From Millions of online videos
     </div>
   </div>
 </div>
@@ -37,4 +56,4 @@
 <input type="text" [(ngModel)]="searchTerm">
 <button (click)="search()">Search</button>
 -->
-<button (click)="processVideo()">Process Video</button> 
+<!-- <button (click)="processVideo()">Process Video</button>  -->

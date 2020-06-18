@@ -15,7 +15,7 @@ export class SingleResultComponent implements OnInit {
   constructor(public detailService: DetailService) { }
 
   ngOnInit() {
-
+    console.log(this.videoClip.pictureUrl)
   }
 
   updateCurrentClip() {

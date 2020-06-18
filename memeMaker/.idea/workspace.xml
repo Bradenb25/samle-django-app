@@ -2,23 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98835c1f-556d-4f25-ab7a-59fc9e25119d" name="Default" comment="Added serializers and viewsets and urls. Added search &#10;componetna nd auth interceptor for angular.">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/memeMaker/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/add-video/add-video.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/add-video/add-video.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/add-video/add-video.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/add-video/add-video.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/results/single-result/single-result.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/results/single-result/single-result.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/results/single-result/single-result.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/results/single-result/single-result.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/details/details.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/details/details.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/details/details.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/details/details.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/details/details.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/details/details.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/search/search.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/search/search.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/search/search.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/search/search.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/search/search.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/search/search.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/search/services/search.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/search/services/search.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/shared/services/picture.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/app/shared/services/picture.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front_end/memeMaker/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memeMaker/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/memeMaker/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/memeMaker/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/memeMaker/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/video-detail/video-detail.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/video-detail/video-detail.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/video-detail/video-detail.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/app/video-detail/video-detail.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front_end/memeMaker/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memeMaker/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/memeMaker/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/front-end/3rdpartylicenses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/static/front-end/3rdpartylicenses.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/front-end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/static/front-end/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/front-end/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/front-end/main.js" afterDir="false" />
@@ -54,13 +58,15 @@
   <component name="ProjectId" id="1UFZlE6ZbPjzzzvKF0ziQr9NhDh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/School/Winter_2020/Machine Learning/machine-learning" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -90,9 +96,10 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="memeMaker.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="SDK_HOME" value="C:\Users\brade\PycharmProjects\samle-django-app\samle-django-app\memeMaker\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -104,7 +111,7 @@
       <option name="runTestServer" value="false" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+      <option name="customRunCommand" value="python manage.py runserver" />
       <method v="2" />
     </configuration>
   </component>
@@ -123,7 +130,14 @@
       <workItem from="1575129862554" duration="11735000" />
       <workItem from="1575286237530" duration="11493000" />
       <workItem from="1575678739837" duration="597000" />
-      <workItem from="1576043123655" duration="1158000" />
+      <workItem from="1576043123655" duration="1811000" />
+      <workItem from="1576123768705" duration="2800000" />
+      <workItem from="1576303608844" duration="5018000" />
+      <workItem from="1576325751444" duration="2845000" />
+      <workItem from="1576469937032" duration="4887000" />
+      <workItem from="1576554843968" duration="4858000" />
+      <workItem from="1576725583000" duration="1249000" />
+      <workItem from="1578682095843" duration="92000" />
     </task>
     <task id="LOCAL-00001" summary="initeal commit">
       <created>1573610955282</created>
@@ -384,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575286884444</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Meme maker is working">
+      <created>1576047178373</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1576047178374</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,7 +425,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added requirements file" />
     <MESSAGE value="added home page" />
     <MESSAGE value="added home page text" />
     <MESSAGE value="fixed url" />
@@ -431,6 +451,7 @@
     <MESSAGE value="Added serializers and viewsets and urls. Added search componetna nd auth interceptor for angular." />
     <MESSAGE value="Added serializers and viewsets and urls. Added search &#10;componetna nd auth interceptor for angular." />
     <MESSAGE value="Added Video Clip component to display a single picture for a video &#10;segment." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Video Clip component to display a single picture for a video &#10;segment." />
+    <MESSAGE value="Meme maker is working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Meme maker is working" />
   </component>
 </project>

@@ -6,6 +6,16 @@
 <input type="text" [(ngModel)]="videoTag">
 <button (click)="addVideo()">Add Video</button> 
 
+<br>
+
+<input type="text" [(ngModel)]="processVideoTag">
+<button (click)="processVideo()">Process Video</button> 
+
+<br> 
+
+<input #gifVideoId type="text">
+<button (click)="createGIF(gifVideoId.value)">Create GIF</button>
+
 
 <div *ngIf="videoProcessed">
   Video was processed and added to database

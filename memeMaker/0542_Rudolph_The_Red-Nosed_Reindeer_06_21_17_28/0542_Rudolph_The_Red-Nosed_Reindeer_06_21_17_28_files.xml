@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.asr.js" source="original">
+    <format>Unknown</format>
+    <mtime>1472210612</mtime>
+    <size>37085</size>
+    <md5>da5fa179dacf1f4a7d3212f2590e2706</md5>
+    <crc32>3e2bd0e0</crc32>
+    <sha1>f996fca72b9a82003110a76fbbc1bfe3d3bb3903</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.asr.srt" source="original">
+    <format>SubRip</format>
+    <mtime>1472210611</mtime>
+    <size>4903</size>
+    <md5>f3559830d8a3b1195a4e2dd096631450</md5>
+    <crc32>dfb31c97</crc32>
+    <sha1>c7505c86da8e5ea3baf66f90d407c4b9911efb92</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.gif" source="derivative">
+    <format>Animated GIF</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765479</mtime>
+    <size>244997</size>
+    <md5>52cbaeada932da92e85866175d80342a</md5>
+    <crc32>963006dd</crc32>
+    <sha1>d4383e92eba7922b664abbe2184ffd9c97daafff</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v" source="original">
+    <format>MPEG4</format>
+    <length>529.9</length>
+    <height>480</height>
+    <width>640</width>
+    <mtime>1375634964</mtime>
+    <size>210437106</size>
+    <md5>8696ddd0ef93be133889e02091710154</md5>
+    <crc32>8d3bb017</crc32>
+    <sha1>c51dc80de26f99e8ce89affffe290f37720f6955</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.mp3" source="derivative">
+    <bitrate>64</bitrate>
+    <length>08:49</length>
+    <format>MP3</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1472139994</mtime>
+    <size>4240896</size>
+    <md5>42c835b8a7792651a1b6fe6940f7fc07</md5>
+    <crc32>4412e6d1</crc32>
+    <sha1>de78e89a354def2814e18b1e333693889b24bd56</sha1>
+    <height>0</height>
+    <width>0</width>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.mp4" source="derivative">
+    <format>h.264</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765853</mtime>
+    <size>54870016</size>
+    <md5>15a5c4683b15b91d896cd386fc63b3e5</md5>
+    <crc32>59c8de89</crc32>
+    <sha1>7e6093c1ca49fa2133abefe33be135cd5b10c593</sha1>
+    <length>529.9</length>
+    <height>480</height>
+    <width>640</width>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.ogv" source="derivative">
+    <format>Ogg Video</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376766306</mtime>
+    <size>39597621</size>
+    <md5>bf3d4aa4bd44d9502fab1eaf67c34685</md5>
+    <crc32>d579fa98</crc32>
+    <sha1>0009f392c28abc88e951bb5dfd1245612699a647</sha1>
+    <length>529.9</length>
+    <height>300</height>
+    <width>400</width>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.png" source="derivative">
+    <format>PNG</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.mp3</original>
+    <mtime>1472140025</mtime>
+    <size>11068</size>
+    <md5>8a7d6ec50a9c4c76c53372f111c3acd8</md5>
+    <crc32>b232cf14</crc32>
+    <sha1>49d0ec1477ae753be11e3de481032d564aa7adbd</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000001.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765481</mtime>
+    <size>986</size>
+    <md5>a1a71ba759664808dd2ad6d859804725</md5>
+    <crc32>24d97024</crc32>
+    <sha1>8ba48182d5c63d4933ebcf2e50d19bd59fc89d16</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000045.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765484</mtime>
+    <size>8405</size>
+    <md5>8d4b558b79567c0829a7ae20d99501e2</md5>
+    <crc32>33de713a</crc32>
+    <sha1>4c0786e3e8c496974b6cabaee50de8ef756d0d1f</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000075.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765487</mtime>
+    <size>8317</size>
+    <md5>6f7de3cdcd744f03e8e4bf57362a6d26</md5>
+    <crc32>a337c5fb</crc32>
+    <sha1>3031f8de85c44ed7af1660d2c8e5258960239eb9</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000105.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765490</mtime>
+    <size>7590</size>
+    <md5>24c7e7413770f2f71b61555cecbad4f7</md5>
+    <crc32>eff1166a</crc32>
+    <sha1>bbaa72e556b0e3cc003eb83eaa478d600cd809ab</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000135.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765493</mtime>
+    <size>8357</size>
+    <md5>e6908eb1fb665623c53d1dd02983da2f</md5>
+    <crc32>07718ecf</crc32>
+    <sha1>4ef41310893f29ac1d6735867223247e592befeb</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000165.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765496</mtime>
+    <size>8648</size>
+    <md5>fad7b2666388a179645901e9512edd8a</md5>
+    <crc32>6b7a4a62</crc32>
+    <sha1>89b542d2fad8ef1ba07a09c4871ca3d2a26a188c</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000195.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765499</mtime>
+    <size>11627</size>
+    <md5>3b39b7ae5c721aeed352df973f560e96</md5>
+    <crc32>4b269e35</crc32>
+    <sha1>3e8fc17dda3a7f32cd4df96446e866af42e3a6e8</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000225.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765501</mtime>
+    <size>9761</size>
+    <md5>e23185c6da82875cdfea087bb33ac0fe</md5>
+    <crc32>906fb13f</crc32>
+    <sha1>57c1be0dfb87e3d84763433c3adc876369feceb1</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000255.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765504</mtime>
+    <size>10526</size>
+    <md5>a29a0416b6abdd42f25e40fad7a6d50c</md5>
+    <crc32>caf22b81</crc32>
+    <sha1>456f651758e34940882ed1cbe5bd42c73c4ef617</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000285.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765507</mtime>
+    <size>3638</size>
+    <md5>b9fddf90f6c52373d700a1bde2f5e552</md5>
+    <crc32>5a2dc293</crc32>
+    <sha1>8411c00d8c6a4715fc9802820ff8334395f2fdce</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000315.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765510</mtime>
+    <size>3314</size>
+    <md5>b56446501321fe673f4316123a6c6dae</md5>
+    <crc32>2b9515b4</crc32>
+    <sha1>0f9f86e3b0f804569fe61ce4bb0ae4a8c3649cb2</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000345.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765513</mtime>
+    <size>4487</size>
+    <md5>9391a03f9fe6469e1be33ecd4a79c664</md5>
+    <crc32>5019517b</crc32>
+    <sha1>330727e3cbc603adff447961a86e931b560ea4a0</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000375.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765516</mtime>
+    <size>6014</size>
+    <md5>d3781617faf32b8e0520d2ddcf145ded</md5>
+    <crc32>96b77de5</crc32>
+    <sha1>0b0b15bc606bad1955050f13cf50933d4d12f0fa</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000405.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765519</mtime>
+    <size>5718</size>
+    <md5>a8dff97ec658da83cb1a807e93a3eae4</md5>
+    <crc32>ddc67aff</crc32>
+    <sha1>87ca190108bc3c51b7ae046622022b3febcff6cb</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000435.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765521</mtime>
+    <size>6728</size>
+    <md5>6434d2bcd105731da17fe955a2d1f130</md5>
+    <crc32>c7142d93</crc32>
+    <sha1>a1b85d96f15341de0e64a4082740976e0035df0c</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000465.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765524</mtime>
+    <size>10620</size>
+    <md5>90eee941700d615cab674aba5c948c83</md5>
+    <crc32>93baca19</crc32>
+    <sha1>f0a5607685bbabc96dc19ef8d182c59513674cd1</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000495.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765527</mtime>
+    <size>8377</size>
+    <md5>597921533f38290371a13ecfb6d2546a</md5>
+    <crc32>24e48c55</crc32>
+    <sha1>e455f4d4f96b6a8505a8c5fe64dc5902643b961d</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.thumbs/0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_000525.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28.m4v</original>
+    <mtime>1376765530</mtime>
+    <size>13449</size>
+    <md5>238f1a4f21a61fb4fb122892b689e8f0</md5>
+    <crc32>d0656e49</crc32>
+    <sha1>3eb1000b06c20a06d690565444218f5c2669a8ac</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_archive.torrent" source="metadata">
+    <btih>1ae76204abda133cc0a424da2d0f873443930bae</btih>
+    <mtime>1476212761</mtime>
+    <size>15044</size>
+    <md5>7386a43ffbbd7914e79fd3f6f1f4c042</md5>
+    <crc32>fdd40db8</crc32>
+    <sha1>2830dfb2ab0892ff02f99e7527e440969edede5f</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>6d209615398377a886c34ada36f3c587</md5>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_meta.xml" source="original">
+    <format>Metadata</format>
+    <mtime>1549847852</mtime>
+    <size>1256</size>
+    <md5>101cfbd619547cce9a8c2a4150a6f45d</md5>
+    <crc32>4078f073</crc32>
+    <sha1>60b57fcb6d6308b21ec1d0b7d0af99f32de7941a</sha1>
+  </file>
+  <file name="0542_Rudolph_The_Red-Nosed_Reindeer_06_21_17_28_reviews.xml" source="original">
+    <mtime>1462467990</mtime>
+    <size>747</size>
+    <md5>732dad358030f4565b2389eb01ac65ea</md5>
+    <crc32>37d5a0cb</crc32>
+    <sha1>251d974feb2998e45fe3e87bb71479a90f86d13b</sha1>
+    <format>Metadata</format>
+  </file>
+</files>
