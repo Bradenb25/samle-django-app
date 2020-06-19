@@ -2,6 +2,7 @@ dlib==19.19.0
 tensorflow==2.2.0
 tensorflow-estimator==2.2.0
 tensorboard==2.2.2
+setuptools==45.2.0
 django==2.2.7
 psycopg2==2.8.4
 djangorestframework==3.10.3
@@ -13,7 +14,6 @@ deepface==0.0.26
 opencv-python==4.2.0.32
 pillow==7.0
 pandas==1.0.1
-setuptools==45.2.0
 cvlib==0.2.5
 internetarchive==1.9.3
 moviepy==1.0.3
