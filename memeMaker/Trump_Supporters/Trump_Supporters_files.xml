@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="Trump_Supporters.asr.js" source="original">
+    <format>ASR</format>
+    <mtime>1519709270</mtime>
+    <size>42540</size>
+    <md5>2aecc372d4f8db4b1390b98c5d818e2e</md5>
+    <crc32>a1605c83</crc32>
+    <sha1>096c17b772756bd2966032b99e809fd9cd6da589</sha1>
+  </file>
+  <file name="Trump_Supporters.asr.srt" source="original">
+    <format>SubRip</format>
+    <mtime>1519709270</mtime>
+    <size>4772</size>
+    <md5>cc1849c76367c4c97a238568ca0f3790</md5>
+    <crc32>55b4a4e7</crc32>
+    <sha1>bbaeb2c315d4cbab4de8783f8b61ae81ce0d5242</sha1>
+  </file>
+  <file name="Trump_Supporters.mp3" source="derivative">
+    <bitrate>96</bitrate>
+    <length>03:13</length>
+    <format>MP3</format>
+    <original>Trump_Supporters.mpeg4</original>
+    <mtime>1496235935</mtime>
+    <size>2318848</size>
+    <md5>57b7745f3bcf94210c157f72f9e1c079</md5>
+    <crc32>c3ec90f4</crc32>
+    <sha1>def78684eecda75cd5f8b3bc7dae5e5ab097a16d</sha1>
+    <height>0</height>
+    <width>0</width>
+  </file>
+  <file name="Trump_Supporters.mp4" source="derivative">
+    <format>h.264</format>
+    <original>Trump_Supporters.mpeg4</original>
+    <mtime>1489370600</mtime>
+    <size>20065590</size>
+    <md5>9979d609aa5e2bcfc90840c9ec0a7324</md5>
+    <crc32>cbceb141</crc32>
+    <sha1>b1dd4883a7b5452ea4b9f4d0d397b1e90fd3b310</sha1>
+    <length>193.14</length>
+    <height>480</height>
+    <width>653</width>
+  </file>
+  <file name="Trump_Supporters.mpeg4" source="original">
+    <mtime>1489369806</mtime>
+    <size>16999548</size>
+    <md5>e23029053e02552f66cbbc09fd9cf4b8</md5>
+    <crc32>3eb88be2</crc32>
+    <sha1>c2930dde7969787e9223bea1b96d71ced3c8d80f</sha1>
+    <format>MPEG4</format>
+    <length>193.12</length>
+    <height>360</height>
+    <width>490</width>
+  </file>
+  <file name="Trump_Supporters.ogv" source="derivative">
+    <format>Ogg Video</format>
+    <original>Trump_Supporters.mpeg4</original>
+    <mtime>1489371129</mtime>
+    <size>14560044</size>
+    <md5>2298c7be6a178b4ae94e18fd2f61350d</md5>
+    <crc32>7ec9897f</crc32>
+    <sha1>eeeb9326c64d591f524d0613a2d240efbb65d0ac</sha1>
+    <length>193.12</length>
+    <height>300</height>
+    <width>408</width>
+  </file>
+  <file name="Trump_Supporters.png" source="derivative">
+    <format>PNG</format>
+    <original>Trump_Supporters.mp3</original>
+    <mtime>1496235948</mtime>
+    <size>11203</size>
+    <md5>e0564549e8aed17e4bb683cc654d2587</md5>
+    <crc32>606db8c8</crc32>
+    <sha1>59198b9665f65f6b4c2a9cb75e141cb9192cb53d</sha1>
+  </file>
+  <file name="Trump_Supporters.thumbs/Trump_Supporters_000001.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>Trump_Supporters.mpeg4</original>
+    <mtime>1489369849</mtime>
+    <size>7714</size>
+    <md5>fba86c6c1e257687dea610e43161284d</md5>
+    <crc32>09452496</crc32>
+    <sha1>d248bef13c483997283e86be3c38bc0b9d85bcf7</sha1>
+  </file>
+  <file name="Trump_Supporters.thumbs/Trump_Supporters_000057.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>Trump_Supporters.mpeg4</original>
+    <mtime>1489369864</mtime>
+    <size>8724</size>
+    <md5>06ce6aeeb60bb9ca2c3dfeb90176a472</md5>
+    <crc32>cff52444</crc32>
+    <sha1>ee6442e45c2682e6f0251ae2491b9558427b869b</sha1>
+  </file>
+  <file name="Trump_Supporters.thumbs/Trump_Supporters_000087.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>Trump_Supporters.mpeg4</original>
+    <mtime>1489369880</mtime>
+    <size>8778</size>
+    <md5>ed93be6cde41267f0337b10912341e48</md5>
+    <crc32>b310670f</crc32>
+    <sha1>669315f4a93b3f2b756fe0ec6c158a768ce4bace</sha1>
+  </file>
+  <file name="Trump_Supporters.thumbs/Trump_Supporters_000117.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>Trump_Supporters.mpeg4</original>
+    <mtime>1489369895</mtime>
+    <size>9844</size>
+    <md5>12639810e1a700991ebdfe60c0f27da9</md5>
+    <crc32>ef81374c</crc32>
+    <sha1>1ce2894db678d91f46376b5bac0e56e90c2247c7</sha1>
+  </file>
+  <file name="Trump_Supporters.thumbs/Trump_Supporters_000147.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>Trump_Supporters.mpeg4</original>
+    <mtime>1489369911</mtime>
+    <size>8739</size>
+    <md5>642f49b78bf2eff4559a622d769cb51e</md5>
+    <crc32>63a4ceb0</crc32>
+    <sha1>cfe53f96922108014310d04d8e88b9447c9038e1</sha1>
+  </file>
+  <file name="Trump_Supporters.thumbs/Trump_Supporters_000177.jpg" source="derivative">
+    <format>Thumbnail</format>
+    <original>Trump_Supporters.mpeg4</original>
+    <mtime>1489369926</mtime>
+    <size>6999</size>
+    <md5>e3b4f0fb04bd60d8d0c7dae1d21e9630</md5>
+    <crc32>cbd9f70d</crc32>
+    <sha1>cbda187b64733b705abea9423fd072a4355944d7</sha1>
+  </file>
+  <file name="Trump_Supporters_archive.torrent" source="metadata">
+    <btih>3be2d13e33c720d0ea71441cee62d5830b168085</btih>
+    <mtime>1536037727</mtime>
+    <size>4949</size>
+    <md5>78c2f5ef46184aa371a646533d3af57c</md5>
+    <crc32>b8cd2c7a</crc32>
+    <sha1>66293a89e644701ea76e2f2c33d8404deaf7c0ba</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="Trump_Supporters_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>090f894a3f590f08c88f52c5a16707ee</md5>
+  </file>
+  <file name="Trump_Supporters_meta.sqlite" source="original">
+    <mtime>1489369819</mtime>
+    <size>12288</size>
+    <md5>356030b4196b49aea43d13d0639c11f4</md5>
+    <crc32>563c6455</crc32>
+    <sha1>eba617b6564524b9cb5b2607221d4a6bb68e38d1</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="Trump_Supporters_meta.xml" source="original">
+    <mtime>1536037723</mtime>
+    <size>1931</size>
+    <format>Metadata</format>
+    <md5>a7d58c503facd60fe57235de1b462af5</md5>
+    <crc32>59a425ee</crc32>
+    <sha1>60ffa726573e9f48b5ce3d6a4a9033e1947424ee</sha1>
+  </file>
+  <file name="__ia_thumb.jpg" source="original">
+    <mtime>1536037725</mtime>
+    <size>9506</size>
+    <md5>141e08dfe5140bbbcf96edb27864f4f4</md5>
+    <crc32>acd7a8b3</crc32>
+    <sha1>9bf06f0df06036258475f9beee6d437a4fc86381</sha1>
+    <format>Item Tile</format>
+    <rotation>0</rotation>
+  </file>
+</files>

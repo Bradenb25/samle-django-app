@@ -10,24 +10,61 @@
 
     </div>
 
-    <div class="clip-text col-6">
-      <!-- {{ videoClip.subtitle_text }} -->
+    <div class="clip-text col-6" *ngIf="videoClip">
+      {{ videoClip.subtitle_text }} <br>
+      <!--
+      <input type="text" [(ngModel)]="color" (change)="addTextToMeme()"> <br>
+      <input type="number" [max]='height - fontSize' min='0' [(ngModel)]="fontSize" (change)="addTextToMeme()"> <br>
       <input type="text" [(ngModel)]="memeText" (keyup)="addTextToMeme()"> <br>
       <button (click)="download()">Download</button>
-    </div> 
+      <button (click)="createAnimation()">Create Animation</button>
+      <button (click)="createGIF()">Create GIF</button><br> -->
+      <!-- <input type="text" [(ngModel)]="gifLink"> -->
+      <!-- <a *ngIf="gifLink" target="_blank" [attr.href]="'./static/gifs/' + gifLink">Link to GIF</a> -->
+      <!-- <button (click)="navigateToMemeCreation()">Create Meme</button> -->
+
+      <!-- <a [routerLink]="['./create-gif']"> -->
+        <button mat-stroked-button color="primary" (click)="createGIF()">Create GIF</button>
+      <!-- </a> -->
+      <br>
+      <br>
+      <!-- <a [routerLink]="['./create-meme']"> -->
+        <button mat-stroked-button color="primary" (click)="createMeme()">Create Meme</button>
+      <!-- </a> -->
+    </div>
   </div>
 
-  <div class="row" style="overflow-x: scroll;">
+  <!-- <div class="row" style="overflow-x: scroll;">
 
     <table>
       <thead>
 
       </thead>
       <tbody style="overflow-x:auto;">
-        <td *ngFor="let segment of segments">
+        <td *ngFor="let segment of segments; let i = index">
           <div class="picture">
             <img style="width: 200px; height: 200px" *ngIf="segment && segment.pictureUrl" [src]="segment.pictureUrl"
-              alt="" (click)="updateCurrentClip()">
+              alt="" (click)="updateCurrentClip(i)">
+          </div>
+        </td>
+      </tbody>
+    </table>
+
+
+  </div> -->
+  <div class="row" style="overflow-x: scroll;">
+    <!-- {{ minImageIndex }}
+    {{ maxImageIndex }} -->
+    <table style="border-collapse: collapse;">
+      <thead>
+      </thead>
+      <tbody style="overflow-x:auto;">
+        <td *ngFor="let segment of segments; let i = index">
+          <div class="gif-picture" [ngClass]="{'gif-picture-highlighted': i <= maxImageIndex && i >= minImageIndex}">
+            <img style="width: 200px; height: 200px" *ngIf="segment && segment.pictureUrl" [src]="segment.pictureUrl"
+              alt="">
+            <!-- <img style="width: 200px; height: 200px" *ngIf="segment && segment.pictureUrl" [src]="segment.pictureUrl"
+              alt="" (click)="updateImageIndexes(i)"> -->
           </div>
         </td>
       </tbody>

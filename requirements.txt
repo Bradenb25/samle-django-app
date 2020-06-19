@@ -2,3 +2,5 @@ django==2.2.7
 psycopg2==2.8.4
 djangorestframework==3.10.3
 whitenoise==4.1.4
+cmake==3.17.2
+face_recognition==6.2

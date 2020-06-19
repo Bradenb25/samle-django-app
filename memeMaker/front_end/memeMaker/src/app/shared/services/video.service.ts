@@ -6,6 +6,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class VideoService {
 
+  videoSegments: any[];
+
   constructor(private httpClient: HttpClient) { }
 
   getVideoClip(videoClipId: Number) {

@@ -4,6 +4,7 @@ export interface VideoClip {
     start_seconds: number,
     end_minutes: number,
     end_seconds: number,
+    time_of: number,
     subtitle_text: string,
     pictureUrl: string
 }
