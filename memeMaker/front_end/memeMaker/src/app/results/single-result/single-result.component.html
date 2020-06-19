@@ -1,0 +1,5 @@
+<div>
+    <img *ngIf="videoClip && videoClip.pictureUrl" [src]="videoClip.pictureUrl" alt=""
+        [routerLink]="['../../../video-detail', videoClip.id, videoClip.time_of]" (click)="updateCurrentClip()">
+    {{ videoClip.items_found }}
+</div>

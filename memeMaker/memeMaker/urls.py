@@ -21,5 +21,5 @@ from django.views.generic import TemplateView
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^api/videos/', include('videos.urls')),
-    url(r'^((?!(static|admin)).)*$', TemplateView.as_view(template_name="home.html")),
+    url(r'^((?!(static|admin|api)).)*$', TemplateView.as_view(template_name="home.html")),
 ]

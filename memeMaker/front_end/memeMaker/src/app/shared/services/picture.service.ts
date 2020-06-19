@@ -18,8 +18,12 @@ export class PictureService {
     this.getPictureUrl = `/user/profile-pic?username=`;
   }
 
-  getImage() {
-    return this._http.get<any>('api/videos/download', {headers: null, responseType: 'blob' as 'json'});
+  getImage(videoId: number, startMinutes: number, startSeconds: string) {
+    return this._http.get<any>(`api/videos/download?videoId=${videoId}&startMinutes=${startMinutes}&startSeconds=${startSeconds}`, {headers: null, responseType: 'blob' as 'json'});
+  }
+
+  getSpecificTime(videoId: number, minutes: number, seconds: number) {
+    return this._http.get<any>(`api/videos/download/frame?videoId=${videoId}&startMinutes=${minutes}&startSeconds=${seconds}`, {headers: null, responseType: 'blob' as 'json'});
   }
 
   getPictureFromBuffer(buffer: any) {
@@ -32,7 +36,19 @@ export class PictureService {
     return this._sanitizer.bypassSecurityTrustUrl(picture);
   }
 
+  createImageFromBlob(image: Blob) {
+    let reader = new FileReader();
+    reader.addEventListener("load", () => {
+      let pictureUrl = 'data:image/jpg;base64,' + reader.result;
+      console.log(this.pictureUrl);
+      return pictureUrl
+    }, false);
+
+    if (image) {
+      reader.readAsText(image);
+    }
+  }
 
 }
 
-}
+

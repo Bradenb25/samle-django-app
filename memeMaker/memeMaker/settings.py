@@ -79,18 +79,24 @@ WSGI_APPLICATION = 'memeMaker.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'postgres',
+#         'USER': 'bradenb25@meme-gif-maker',
+#         'PASSWORD': 'grc2T2#IzL7$V5uw',
+#         'HOST': 'meme-gif-maker.postgres.database.azure.com',
+#         'PORT': '5432',
+#         'OPTIONS': {'sslmode': 'require'},
+#     },
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'postgres',
-        'USER': 'bradenb25@meme-gif-maker',
-        'PASSWORD': 'grc2T2#IzL7$V5uw',
-        'HOST': 'meme-gif-maker.postgres.database.azure.com',
-        'PORT': '5432',
-        'OPTIONS': {'sslmode': 'require'},
-    },
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -124,6 +130,43 @@ USE_L10N = True
 
 USE_TZ = True
 
+# LOGGING = {
+#     'version': 1,
+#     'formatters': {
+#         'verbose': {
+#             'format': '%(levelname)s %(asctime)s %(module)s %(process)d %(thread)d %(message)s'
+#         },
+#         'simple': {
+#             'format': '%(levelname)s %(message)s'
+#         },
+#     },
+#     'handlers': {
+#         'console': {
+#             'level': 'DEBUG',
+#             'class': 'logging.StreamHandler',
+#             'formatter': 'simple'
+#         },
+#         'file': {
+#             'level': 'DEBUG',
+#             'class': 'logging.FileHandler',
+#             'filename': 'C:\\Users\\brade\\Desktop\\file.log',
+#             'formatter': 'simple'
+#         },
+#     },
+#     'loggers': {
+#         'django': {
+#             'handlers': ['file'],
+#             'level': 'DEBUG',
+#             'propagate': True,
+#         },
+#     }
+# }
+#
+# if DEBUG:
+#     # make all loggers use the console.
+#     for logger in LOGGING['loggers']:
+#         LOGGING['loggers'][logger]['handlers'] = ['console']
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
@@ -134,5 +177,6 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     # 'D:/home/site/wwwroot/memeMaker/memeMaker/static',
-    os.path.join(BASE_DIR, "./static")
+    os.path.join(BASE_DIR, "./static"),
+    # os.path.join(BASE_DIR, "memeMaker/static")
 ]

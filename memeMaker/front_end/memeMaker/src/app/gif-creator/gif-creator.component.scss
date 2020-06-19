@@ -1,0 +1,42 @@
+.detail-container {
+
+    max-width: 1600px;
+    width: 1600px;
+
+    .video-clip-info {
+        margin-top: 40px;
+
+        .clip-text {
+            margin: auto 0;
+        }
+    }
+
+    
+    canvas {
+        max-width: 650px;
+    }
+
+    #main-picture {
+        // width: 400px;
+        margin-bottom: 40px;
+        image {
+            width: 475px;
+            height: 475px;
+        }
+    }
+
+    .gif-picture {
+        padding: 10px 5px;
+        margin-right: -2px;
+    }
+
+    .gif-picture-highlighted {
+        
+        background-color: maroon;
+    }
+
+    .picture {
+        width: 200px;
+        margin: 0 8px;
+    }
+}

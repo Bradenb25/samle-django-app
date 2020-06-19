@@ -1,0 +1,41 @@
+<div class="container detail-container">
+  <div class="row video-clip-info">
+    <div id="main-picture" class="col-6">
+      <canvas #canvas id="canvasId" [width]="width" [height]="height"></canvas>
+    </div>
+    <div class="clip-text col-6" *ngIf="videoClip">
+      {{ videoClip.subtitle_text }} <br>
+      <!-- <input type="text" placeholder="Text to overlay on GIF" [(ngModel)]="gifTextOverlay"> <br> -->
+      <button mat-stroked-button color="primary" (click)="createAnimation()">Show GIF when created</button> <br><br>
+      <button mat-stroked-button color="primary" (click)="createGIF()">Create GIF</button><br>
+      <a *ngIf="gifLink" target="_blank" [attr.href]="'./static/gifs/' + gifLink">Link to GIF</a>
+    </div>
+  </div>
+  <div class="row" style="overflow-x: scroll;">
+    <table style="border-collapse: collapse;">
+      <thead>
+      </thead>
+      <tbody style="overflow-x:auto;">
+        <td *ngFor="let segment of segments; let i = index">
+          <div class="gif-picture" [ngClass]="{'gif-picture-highlighted': i <= maxImageIndex && i >= minImageIndex}">
+            <img style="width: 200px; height: 200px" *ngIf="segment && segment.pictureUrl" [src]="segment.pictureUrl"
+              alt="" (click)="updateImageIndexes(i)">
+          </div>
+        </td>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<!-- enable oauth authicationn with google or facebook -->
+<!-- make the appealing -->
+<!-- share option to facebook or instagram -->
+create mobile app for
+freemium tiered break into the market share 2 apps now there are 3
+reach out to Rob Tuft
+do market research before inveesting a ton of time into a project
+Run two apps at the same time
+Make the app more ux appealing
+reach out to josh holladay on linkedin for designer work
+If I'm creating a straight mimick do it well try some redesign

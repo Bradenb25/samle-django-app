@@ -1,0 +1,39 @@
+<div class="container detail-container">
+
+  <div class="row video-clip-info">
+    <div id="main-picture" class="col-6">
+      <canvas #canvas id="canvasId" [width]="width" [height]="height"></canvas>
+    </div>
+
+    <div class="clip-text col-6" *ngIf="videoClip">
+      {{ videoClip.subtitle_text }} <br>
+
+      <mat-form-field class="full-width">
+        <input matInput placeholder="Text Color" type="text" [(ngModel)]="color" (keyup)="addTextToMeme()">
+      </mat-form-field> <br>
+      <mat-form-field class="full-width">
+        <input matInput placeholder="Font Size" type="number" [max]='height - fontSize' min='0' [(ngModel)]="fontSize" (change)="addTextToMeme()">
+      </mat-form-field> <br>
+      <mat-form-field class="full-width">
+        <input matInput placeholder="Meme Text" type="text" [(ngModel)]="memeText" (keyup)="addTextToMeme()">
+      </mat-form-field> <br>
+      <button mat-raised-button color="primary" (click)="download()">Download</button>
+    </div>
+  </div>
+
+  <div class="row" style="overflow-x: scroll;">
+
+    <table>
+      <thead>
+      </thead>
+      <tbody style="overflow-x:auto;">
+        <td *ngFor="let segment of segments; let i = index">
+          <div class="picture">
+            <img style="width: 200px; height: 200px" *ngIf="segment && segment.pictureUrl" [src]="segment.pictureUrl"
+              alt="" (click)="updateCurrentClip(i)">
+          </div>
+        </td>
+      </tbody>
+    </table>
+  </div>
+</div>

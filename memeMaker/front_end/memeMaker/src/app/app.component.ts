@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import {PictureService} from "./shared/services/picture.service";
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss'],
+  // encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
   title = 'app';
@@ -12,11 +13,11 @@ export class AppComponent {
   constructor(private pictureService: PictureService) {}
 
   ngOnInit() {
-    this.pictureService.getImage().subscribe(x => {
-      // this.pictureUrl = this.pictureService.getPictureFromBuffer(x);
-      this.pictureUrl = this.createImageFromBlob(x);
+    // this.pictureService.getImage().subscribe(x => {
+    //   // this.pictureUrl = this.pictureService.getPictureFromBuffer(x);
+    //   this.pictureUrl = this.createImageFromBlob(x);
 
-    })
+    // })
   }
 
     createImageFromBlob(image: Blob) {
