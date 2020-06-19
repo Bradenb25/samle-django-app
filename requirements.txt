@@ -1,4 +1,7 @@
 dlib==19.19.0
+tensorflow==2.2.0
+tensorflow-estimator==2.2.0
+tensorboard==2.2.2
 django==2.2.7
 psycopg2==2.8.4
 djangorestframework==3.10.3
