@@ -35,7 +35,12 @@ def addArchiveVideo(request):
         processActors(videoTag)
         processObjects(videoTag)
         processEmotions(videoTag)
-
+    else:
+        processVideo(videoTag)
+        processActors(videoTag)
+        processObjects(videoTag)
+        processEmotions(videoTag)
+        
     return HttpResponse()
 
 def get_video_or_create(videoTag):
