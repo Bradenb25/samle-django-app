@@ -22,3 +22,4 @@ urlpatterns = router.urls + [
     url(r'byObject', get_clips_by_object),
     url(r'byEmotion', get_clips_by_emotion)
 ]
+

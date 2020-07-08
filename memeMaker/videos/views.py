@@ -31,12 +31,16 @@ def addArchiveVideo(request):
     if not os.path.exists(videoTag):
         print("hi")
         archdownload(videoTag)
-
-    # processVideo(videoTag)
-    # processActors(videoTag)
-    # processObjects(videoTag)
-    processEmotions(videoTag)
-
+        processVideo(videoTag)
+        processActors(videoTag)
+        processObjects(videoTag)
+        processEmotions(videoTag)
+    else:
+        processVideo(videoTag)
+        processActors(videoTag)
+        processObjects(videoTag)
+        processEmotions(videoTag)
+        
     return HttpResponse()
 
 def get_video_or_create(videoTag):
