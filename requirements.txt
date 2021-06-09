@@ -3,7 +3,7 @@ wheel==0.34.2
 dlib==19.19.0
 keras==2.4.1
 setuptools==45.2.0
-django==2.2.7
+django==2.2.22
 psycopg2==2.8.4
 djangorestframework==3.10.3
 whitenoise==4.1.4
