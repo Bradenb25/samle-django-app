@@ -2,7 +2,7 @@ cmake==3.17.2
 wheel==0.34.2
 dlib==19.19.0
 keras==2.4.1
-setuptools==45.2.0
+setuptools==65.5.1
 django==2.2.7
 psycopg2==2.8.4
 djangorestframework==3.10.3
